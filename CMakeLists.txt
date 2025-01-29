@@ -6,8 +6,9 @@ add_library(cli INTERFACE)
 # Enable CMake support for ASM and C languages
 enable_language(C ASM)
 
-message("CLI lib by:                                            
-")
+message("CLI lib by:
+Andrii Dobrus
+Git: https://github.com/MuffinKing-jpeg")
 
 file(GLOB CLI_SRC_FILES ${CMAKE_CURRENT_SOURCE_DIR}//Src/*.c)
 
